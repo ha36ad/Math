@@ -1,2 +1,2 @@
 # Math
-Creating algorithms for Math Formulas.
+Replicating some Mathematical formulas. 
