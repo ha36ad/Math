@@ -8,11 +8,11 @@ float a;
 float b;
 float c;
 //Ask user for inputs
-	std::cout << "Enter a value for a: ";
-	std::cin >> a;
+	cout << "Enter a value for a: ";
+	cin >> a;
 
-	std::cout << "Enter a value for b: ";
-	std::cin >> b;
+	cout << "Enter a value for b: ";
+	cin >> b;
 //Calculations
 a = pow(a,2);
 b = pow(b,2);
