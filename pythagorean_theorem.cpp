@@ -19,7 +19,7 @@ b = pow(b,2);
 c = sqrt(a+b);
 
 //Print c
-std::cout << "C: " << c << std::endl;
+cout << "C: " << c;
 
 return 0;
 }
