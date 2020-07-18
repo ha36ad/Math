@@ -16,7 +16,9 @@ return sum;
 int main()
 {
     // change the number here
-   int number = 365;
+   int number;
+   cout <<"Enter a number: ";
+   cin >> number;
     cout << "Sum of divisors: " << sumofdivisors(number); 
     return 0;
 
