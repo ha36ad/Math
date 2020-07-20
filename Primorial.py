@@ -1,7 +1,8 @@
 import math 
 #Max value of the numbers
 MAX_NUMBER = 1000000
-limit = int(input("Enter a number: "))
+number = int(input("Enter a number: "))
+limit = int(input("Enter a limit for the Sieve: "))
 
 def SieveofAktin(limit):
     # In the cases of 2 and 3
@@ -55,5 +56,5 @@ def Primorial(number):
     return result;  
 
 #Run the program
-SieveofAktin(30)
+SieveofAktin(limit)
 print("The primorial of ",number ,"is", Primorial(number))
