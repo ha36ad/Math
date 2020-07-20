@@ -3,13 +3,9 @@ import math
 MAX_NUMBER = 1000000
 number = int(input("Enter a number: "))
 limit = int(input("Enter a limit for the Sieve: "))
-
+#As 2 and 3 are already primes, the array is initialized with 2 and 3
+prime_numbers = [2,3]
 def SieveofAktin(limit):
-    # In the cases of 2 and 3
-    if (limit > 2):
-           print(2)
-    if (limit > 3):
-           print(3)
     # Mark the sieve list as non-prime
     sieve = [False]*limit
      # Finding the modulo remainders
