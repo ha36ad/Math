@@ -20,7 +20,7 @@ void SieveofSundaram(int number)
     if (number > 2) 
 		cout << 2 << " "; 
     
-    //Printing remaining primes
+    //Printing primes
     for (int i = 1; i <= k; i++)
     {
         if (prime_list[i] == false)
