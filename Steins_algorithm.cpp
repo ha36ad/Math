@@ -24,5 +24,5 @@ int main()
 {
     int u = 25;
     int v = 19;
-    printf("The GDC is: " ,Stein(u,v));
+    printf("The GCD is: " ,Stein(u,v));
 }
