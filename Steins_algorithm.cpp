@@ -2,8 +2,21 @@
 using namespace std;
 
 //Algorithm function
-int Stein(int u, int v){
-    
+int Stein(int u, int v)
+{
+     //Base cases
+    if (u == v)
+    {
+        return u;
+    }
+    if (u == 0)
+    {
+        return v;
+    }
+    if (v == 0)
+    {
+        return u;
+    }
 }
 
 //Run the program
