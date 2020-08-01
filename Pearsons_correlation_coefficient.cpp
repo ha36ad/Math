@@ -46,4 +46,5 @@ int main()
 
     //Print the R value
     cout << R_value(X,Y,max);
+    return 0;
 }
