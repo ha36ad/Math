@@ -10,10 +10,11 @@ def prime_factors(number):
     prime_numbers = []
     while i*i <= number:
         if number % i != 0:
-            prime_numbers.append(i)
             i += 1
         else:
              number //= i
+             prime_numbers.append(i)
+            
     if number > 1:
         prime_numbers.append(number)
     return prime_numbers
