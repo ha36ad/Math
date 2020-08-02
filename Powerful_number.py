@@ -8,18 +8,18 @@ def prime_factors(number):
     i = 2
     #Array to store prime numbers
     prime_numbers = []
+    
+    # Algorithm for prime factorization
     while i*i <= number:
         if number % i != 0:
             i += 1
         else:
              number //= i
              prime_numbers.append(i)
-            
-    if number > 1:
-        prime_numbers.append(number)
+     
     return prime_numbers
-    #Function for powerful numbers
 
+#Function for powerful numbers
 def Powerful(number):
     unique_primes = prime_factors(number)
 
