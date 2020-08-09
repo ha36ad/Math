@@ -1,2 +1,2 @@
 # Math
-Replicating some Mathematical formulas. 
+Replicating some formulas and theorems. 
