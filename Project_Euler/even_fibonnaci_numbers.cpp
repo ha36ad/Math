@@ -2,25 +2,22 @@
 using namespace std;
 
 //Generate Fibonnaci numbers
-int Fibonnaci()
+void Fibonnaci()
 {
-    int MAX = 4000000;
-    int t1 = 1;
-    int t2 = 2;
+    int MAX = 1000;
+    int t1 = 2;
+    int t2 = 8;
     int t3 = 0;
     int sum = 0;
-    while (t3 <= MAX)
+    while (t1 <= MAX)
     {
-        t3 = t1 + t2;
-        t1 = t2;
-        t2 = t3;
-     if (t3 % 2 == 0)
-     {
-         sum += t3;
-     }
+        sum += t1;
+        t3 = t2;
+        t2 = 4 * t2 + t1;
+        t1 = t3;
     }
-    return sum + 2;
 }
+
 
 //Run the program
 int main()
