@@ -1,2 +1,0 @@
-import sympy as sym
-print(sym.factorint(600851475143))
