@@ -18,10 +18,6 @@ bool palindrome(int number)
     {
         return true;
     }
-     else
-     {
-        return false;
-     }
 }
 
 //Run the program
