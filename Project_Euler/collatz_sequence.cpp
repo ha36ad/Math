@@ -8,7 +8,7 @@ int main()
     int largest_sequence = 0;
     int number = 0;
     long current_sequence = 0;
-    vector <int> numlist(max + 1,-1);
+    vector <int> numlist(max + 1,0);
     numlist[1] = 1;
 
     for (int i = 2; i <= max; i++)
@@ -27,18 +27,16 @@ int main()
             current_sequence = 3 * current_sequence + 1; 
           }
           length++;
-        }
+      }
 
-        numlist[i] = length + numlist[current_sequence];
+      numlist[i] = length + numlist[current_sequence];
 
       if(numlist[i] > largest_sequence)
       {
           largest_sequence = numlist[i];
           number = i;
       }
-
     }
-    cout << number;
 }
 
    
