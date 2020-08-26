@@ -7,7 +7,7 @@ max_a = 0
 max_b = 0
 
 prime_list = []
-for i in sieve.primerange(1,1000):
+for i in sieve.primerange(2,1000):
   prime_list.append(i)
 
 
