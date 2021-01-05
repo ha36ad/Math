@@ -1,2 +1,2 @@
 # Math
-Replicating some formulas and theorems. 
+Replicating some formulas,theorems, and  attempting problems from websites. 
